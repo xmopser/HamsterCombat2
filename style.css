@@ -1,0 +1,39 @@
+body {
+ background: #003e64;
+ font-family: Arial, sans-serif;
+ text-align: center;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.container {
+ padding: 50px;
+}
+
+h1 {
+ font-size: 40px;
+ color: #ffffff;
+}
+
+button {
+ padding: 10px 20px;
+ font-size: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+th {
+    background-color: #C0E4FC;
+}
+
+tr:nth-child(even) {
+    background-color: #C0E4FC;
+}
